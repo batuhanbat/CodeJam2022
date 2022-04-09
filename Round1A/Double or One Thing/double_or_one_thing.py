@@ -6,7 +6,6 @@ def double_or_not(S):
 
 # I/O Code
 T = int(input())
-
 for case in range(1, T + 1):   
     S = str(input().strip())
     result = double_or_not(S)
